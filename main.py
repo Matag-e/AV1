@@ -144,7 +144,7 @@ class GerenciadorMensagens:
     def mensagens_enviadas(self):
         return self._mensagens_enviadas
 
-# Exemplo de uso
+
 if __name__ == "__main__":
     gerenciador = GerenciadorMensagens()
 
@@ -166,7 +166,7 @@ if __name__ == "__main__":
     gerenciador.enviar_mensagem(canal_facebook, mensagem_video)
     gerenciador.enviar_mensagem(canal_instagram, mensagem_video)
 
-    # Exibindo mensagens enviadas
+  #Exibe mensagens
     print("\nMensagens enviadas:")
     for destinatario, mensagem in gerenciador.mensagens_enviadas:
         print(f"Para: {destinatario}, Mensagem: {mensagem}")
